@@ -8,7 +8,7 @@ public:
   virtual ~Employee();
 
 protected:
-  double base_salary_;
+  double m_base_salary;
 };
 
 class Salaried_employee : public Employee {
